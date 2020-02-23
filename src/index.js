@@ -9,12 +9,12 @@ exports.min = function min (array) {
 }
 
 exports.max = function max (array) {
-	 var max = array[0]; // берем первый элемент массива
-    for (var i = 0; i < array.length; i++) { // переберем весь массив
-        // если элемент больше, чем в переменной, то присваиваем его значение переменной
+	 var max = array[0]; 
+    for (var i = 0; i < array.length; i++) {
+        
         if (max < array[i]) max = array[i]; 
     }
-    // возвращаем максимальное значение
+    
     return max;
     console.log(max);
 }
